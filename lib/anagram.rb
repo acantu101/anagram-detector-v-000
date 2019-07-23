@@ -8,13 +8,15 @@ attr_accessor :word
     end
 
     def match(possible_matches)
-        matches = []
+      matches = []
       possible_matches.each do |words|
-      words = words.split('').sort
-      if   word.split('').sort == words
+      words_array = words.split('').sort
+      if word.split('').sort == words
       matches << words.join
           end
         return matches
+        return words_array
+        return
       end
     end
 
