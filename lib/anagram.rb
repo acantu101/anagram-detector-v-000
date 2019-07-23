@@ -15,7 +15,7 @@ attr_accessor :word
       matches << words.join
           end
         return matches
-        return words_array
+
       end
     end
 
