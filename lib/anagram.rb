@@ -10,7 +10,7 @@ attr_accessor :name
     def match(possible_matches)
           matches = []
           possible_matches.each do |word|
-    
+
           	if word.split('').sort == name
           		matches << word
             end
