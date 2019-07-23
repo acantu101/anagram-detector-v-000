@@ -14,5 +14,8 @@ attr_accessor :word
     key = words.split('').sort.join
 
     return matches
+  end
+end
+
 
   end
