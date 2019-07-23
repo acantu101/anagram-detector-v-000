@@ -11,7 +11,7 @@ attr_accessor :name
           matches = []
           possible_matches.each do |word|
 
-          	if word.split('').sort == name
+          	if word.split('').sort == name.split('').sort
           		matches << word
             end
             return matches
