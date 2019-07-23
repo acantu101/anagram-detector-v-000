@@ -16,7 +16,6 @@ attr_accessor :word
           end
         return matches
         return words_array
-        return
       end
     end
 
