@@ -14,8 +14,8 @@ attr_accessor :name
           	if word.split('').sort == name.split('').sort
           		matches << word
             end
-            return matches
           end
+          return matches
         end
 
 
