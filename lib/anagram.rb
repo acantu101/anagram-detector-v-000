@@ -17,6 +17,7 @@ attr_accessor :word
           end
         return matches
       end
+    end
 
 
   end
