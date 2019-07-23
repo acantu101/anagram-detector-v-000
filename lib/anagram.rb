@@ -8,15 +8,15 @@ attr_accessor :word
     end
 
     def match(possible_matches)
-      matches = []
-      possible_matches.each do |words|
-      words = words.split('').sort
-      if word.split('').sort == words
-      matches << words.join
+          matches = []
+          possible_matches.each do |word|
+          	anagram_word = word.split('').sort
+          	if anagram_word.split('').sort == word
+          		matches << word
+            end
+            return matches
           end
-        return matches
-      end
-    end
+        end
 
 
   end
