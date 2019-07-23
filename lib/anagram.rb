@@ -15,7 +15,6 @@ attr_accessor :word
       matches << words.join
           end
         return matches
-
       end
     end
 
