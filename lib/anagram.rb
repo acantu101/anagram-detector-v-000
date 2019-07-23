@@ -12,7 +12,7 @@ attr_accessor :word
       possible_matches.each do |words|
       words = words.split('').sort
       if   word.split('').sort == words
-      matches << words
+      matches << words.join
           end
         return matches
       end
