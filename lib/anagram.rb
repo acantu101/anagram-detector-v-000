@@ -12,8 +12,7 @@ attr_accessor :word
     matches = []
   possible_matches.each do |words|
     key = words.split('').sort.join
-    
+
     return matches
-  
+
   end
-    
